@@ -46,8 +46,13 @@ body {
   padding: 3px;
   text-align: center;
 }
-
-
+/** Table Formating **/
+td {
+  /*border: 1px solid black;*/
+}
+tr:nth-child(2n) {
+  background-color: pink;
+}
 
 
 
